@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![NuGet Badge](https://img.shields.io/nuget/v/BanglaLinkOrangeLoyaltyClient.svg?style=flat-square&label=NuGet)](https://www.nuget.org/packages/BanglaLinkOrangeLoyaltyClient/)
+[![NuGet Badge](https://img.shields.io/nuget/v/BanglaLinkOrangeClub.Client.svg?style=flat-square&label=NuGet)](https://www.nuget.org/packages/BanglaLinkOrangeClub.Client/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 [![.NET 6.0+](https://img.shields.io/badge/.NET-6.0%2B-512BD4?style=flat-square&logo=dotnet)](https://dotnet.microsoft.com)
 [![GitHub Stars](https://img.shields.io/github/stars/emonarafat/BanglaLinkOrangeClient?style=flat-square&logo=github)](https://github.com/emonarafat/BanglaLinkOrangeClient)
@@ -49,7 +49,7 @@
 ### 1️⃣ Install Package
 
 ```bash
-dotnet add package BanglaLinkOrangeLoyaltyClient
+dotnet add package BanglaLinkOrangeClub.Client
 ```
 
 ### 2️⃣ Configure in Program.cs
@@ -527,17 +527,17 @@ else if (!cachedToken.IsRefreshTokenValid)
 
 ### Option 1: dotnet CLI
 ```bash
-dotnet add package BanglaLinkOrangeLoyaltyClient
+dotnet add package BanglaLinkOrangeClub.Client
 ```
 
 ### Option 2: NuGet Package Manager
 ```powershell
-Install-Package BanglaLinkOrangeLoyaltyClient
+Install-Package BanglaLinkOrangeClub.Client
 ```
 
 ### Option 3: .csproj File
 ```xml
-<PackageReference Include="BanglaLinkOrangeLoyaltyClient" Version="1.0.1" />
+<PackageReference Include="BanglaLinkOrangeClub.Client" Version="1.0.0" />
 ```
 
 ---
@@ -598,7 +598,7 @@ MIT License - See [LICENSE](LICENSE) file for details
 
 1. ⭐ **Star the Repository** - Show your support!
 2. 📚 **Read Documentation** - Check [START_HERE.md](https://github.com/emonarafat/BanglaLinkOrangeClient/blob/main/START_HERE.md)
-3. 💻 **Install Package** - Run `dotnet add package BanglaLinkOrangeLoyaltyClient`
+3. 💻 **Install Package** - Run `dotnet add package BanglaLinkOrangeClub.Client`
 4. 🧪 **Try Examples** - Check the [examples/](https://github.com/emonarafat/BanglaLinkOrangeClient/tree/main/examples) folder
 5. 🚀 **Deploy** - Integrate into your application
 
@@ -619,6 +619,6 @@ MIT License - See [LICENSE](LICENSE) file for details
 
 ### Made with ❤️ for Banglalink Orange Club Integration
 
-**[⭐ Star us on GitHub](https://github.com/emonarafat/BanglaLinkOrangeClient)** • **[📦 NuGet Package](https://www.nuget.org/packages/BanglaLinkOrangeLoyaltyClient/)** • **[📖 Full Documentation](https://github.com/emonarafat/BanglaLinkOrangeClient/tree/main/docs)**
+**[⭐ Star us on GitHub](https://github.com/emonarafat/BanglaLinkOrangeClient)** • **[📦 NuGet Package](https://www.nuget.org/packages/BanglaLinkOrangeClub.Client/)** • **[📖 Full Documentation](https://github.com/emonarafat/BanglaLinkOrangeClient/tree/main/docs)**
 
 </div>
