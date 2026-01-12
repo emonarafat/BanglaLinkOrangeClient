@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Background -->
+  <rect width="256" height="256" fill="#FF6B35"/>
+  
+  <!-- Outer circle -->
+  <circle cx="128" cy="128" r="120" fill="#FFA500" opacity="0.9"/>
+  
+  <!-- Inner circle background -->
+  <circle cx="128" cy="128" r="110" fill="#FFFFFF"/>
+  
+  <!-- Shield shape (for security/trust) -->
+  <path d="M 128 50 L 180 80 L 180 130 Q 128 170 128 170 Q 128 170 76 130 L 76 80 Z" 
+        fill="#FF6B35" stroke="#FF6B35" stroke-width="2"/>
+  
+  <!-- Star in center (loyalty rewards) -->
+  <path d="M 128 85 L 135 105 L 157 105 L 142 120 L 148 140 L 128 125 L 108 140 L 114 120 L 99 105 L 121 105 Z" 
+        fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1"/>
+  
+  <!-- API indicator - small gear/circuit pattern -->
+  <g opacity="0.8">
+    <circle cx="100" cy="150" r="6" fill="#FFFFFF"/>
+    <circle cx="156" cy="150" r="6" fill="#FFFFFF"/>
+    <line x1="106" y1="150" x2="150" y2="150" stroke="#FFFFFF" stroke-width="2"/>
+  </g>
+  
+  <!-- Text styling (though SVG text, for reference) -->
+  <!-- Package name can be added separately in .csproj -->
+</svg>

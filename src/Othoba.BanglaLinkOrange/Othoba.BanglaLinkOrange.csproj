@@ -2,28 +2,30 @@
 
   <PropertyGroup>
     <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
-    <PackageId>Othoba.BanglaLinkOrange</PackageId>
+    <PackageId>BanglaLinkOrangeClub.Client</PackageId>
     <RootNamespace>Othoba.BanglaLinkOrange</RootNamespace>
-    <Title>Othoba Banglalink Orange OAuth 2.0 and Loyalty API Client</Title>
+    <Title>Banglalink Orange Club Loyalty API Client</Title>
     <Authors>Othoba</Authors>
-    <Description>A comprehensive C# library for Banglalink Orange OAuth 2.0 authentication and Loyalty API integration. Includes token management, member profile retrieval, tier status checking, and points analysis.</Description>
-    <RepositoryUrl>https://github.com/othoba/banglalink-orange-client</RepositoryUrl>
-    <PackageTags>banglalink;orange;oauth2;authentication;loyalty;api;client</PackageTags>
+    <Description>A comprehensive C# library for Banglalink Orange Club OAuth 2.0 authentication and Loyalty API integration. Includes token management, member profile retrieval, tier status checking, and points analysis.</Description>
+    <RepositoryUrl>https://github.com/emonarafat/BanglaLinkOrangeClient</RepositoryUrl>
+    <PackageTags>banglalink;orange;club;oauth2;authentication;loyalty;api;client</PackageTags>
     <Version>1.0.0</Version>
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/othoba/banglalink-orange-client</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/emonarafat/BanglaLinkOrangeClient</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="../../README.md" Pack="true" PackagePath="\" />
+    <None Include="icon.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'net6.0'">
