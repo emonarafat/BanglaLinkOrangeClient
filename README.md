@@ -1,8 +1,16 @@
-# Othoba.BanglaLinkOrange
+# Banglalink Orange Loyalty API Client
 
-![Banglalink Orange](BLOrange.png)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/emonarafat/BanglaLinkOrangeClient/main/BLOrange.png" alt="Banglalink Orange" width="200" height="200"/>
+  
+  [![NuGet Badge](https://img.shields.io/nuget/v/BanglaLinkOrangeLoyaltyClient.svg)](https://www.nuget.org/packages/BanglaLinkOrangeLoyaltyClient/)
+  [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+  [![.NET 6.0+](https://img.shields.io/badge/.NET-6.0%2B-512BD4?logo=dotnet)](https://dotnet.microsoft.com)
+  
+  **Production-Ready OAuth 2.0 & Loyalty API Client for Banglalink**
+</div>
 
-A comprehensive C# library for Banglalink Orange OAuth 2.0 authentication and Loyalty API integration.
+---
 
 ## Overview
 
@@ -17,29 +25,81 @@ Implements the OpenAPI Authorization Documentation v1.1 and supports both the **
 
 ## Features
 
-### Authentication
-✅ **Password Grant Flow** - Initial authentication with username and password  
-✅ **Refresh Token Grant Flow** - Automatic token renewal  
-✅ **Automatic Token Management** - Built-in token caching and automatic refresh  
-✅ **Thread-Safe** - Handles concurrent token access safely  
+<table>
+<tr>
+<td width="50%">
 
-### Loyalty API
-✅ **Member Profile Retrieval** - Get member loyalty information  
-✅ **Tier Status Checking** - Check member tier and expiry information  
-✅ **Points Analysis** - Enriched data with calculated fields  
-✅ **Batch Processing** - Handle multiple member queries efficiently  
+### 🔐 Authentication
+- ✅ Password Grant Flow
+- ✅ Refresh Token Grant Flow
+- ✅ Automatic Token Management
+- ✅ Thread-Safe Operations
+- ✅ Token Caching & Auto-Refresh
+- ✅ Bearer Token Injection
+
+</td>
+<td width="50%">
+
+### 🎯 Loyalty API
+- ✅ Member Profile Retrieval
+- ✅ Tier Status Checking
+- ✅ Points Analysis
+- ✅ Batch Processing
+- ✅ DelegatingHandler Integration
+- ✅ Automatic Token Management
+
+</td>
+</tr>
+</table>
 
 ### General
-✅ **Async/Await Support** - Modern async patterns throughout  
-✅ **Dependency Injection** - Seamless integration with .NET DI container  
-✅ **Comprehensive Error Handling** - Custom exception types for better error management  
-✅ **Configuration Validation** - Validates configuration before use  
+- ✅ **Async/Await Support** - Modern async patterns throughout
+- ✅ **Dependency Injection** - Seamless .NET DI integration
+- ✅ **Comprehensive Error Handling** - Custom exception types
+- ✅ **Configuration Validation** - Validates configuration before use
+- ✅ **Multi-Framework Support** - .NET 6.0 and 8.0
+- ✅ **Resilience Patterns** - Polly integration for retries  
 
 ## Installation
 
 ```bash
-dotnet add package Othoba.BanglaLinkOrange
+dotnet add package BanglaLinkOrangeLoyaltyClient
 ```
+
+Or via NuGet Package Manager:
+```powershell
+Install-Package BanglaLinkOrangeLoyaltyClient
+```
+
+## Architecture
+
+<div align="center">
+  <pre>
+┌─────────────────────────────────────────────────┐
+│         Your Application                        │
+├─────────────────────────────────────────────────┤
+│                                                 │
+│  Controllers / Services                         │
+│         ↓                                       │
+│  ILoyaltyClient + IBanglalinkAuthClient        │
+│         ↓                                       │
+│  AuthenticationDelegatingHandler                │
+│  (Automatic Token Injection)                    │
+│         ↓                                       │
+│  HttpClient Pipeline                            │
+│         ↓                                       │
+│  Banglalink OAuth 2.0 Server                    │
+│  Banglalink Loyalty API Server                  │
+└─────────────────────────────────────────────────┘
+  </pre>
+</div>
+
+### Key Components
+
+- **IBanglalinkAuthClient** - OAuth 2.0 authentication with automatic token management
+- **ILoyaltyClient** - Loyalty API member profile operations
+- **AuthenticationDelegatingHandler** - Automatic Bearer token injection into requests
+- **BanglalinkConfig** - Unified configuration for both OAuth and Loyalty services
 
 ## Quick Start
 
@@ -153,17 +213,22 @@ public class BanglalinkApiClient
 
 ### 📚 Core Documentation
 
-- **[START_HERE.md](START_HERE.md)** - Entry point with 5-minute quick start
-- **[LOYALTY_QUICK_START.md](docs/LOYALTY_QUICK_START.md)** - Loyalty API quick setup
-- **[LOYALTY_API_GUIDE.md](docs/LOYALTY_API_GUIDE.md)** - Comprehensive Loyalty API guide
-- **[LOYALTY_API_EXAMPLES.md](docs/LOYALTY_API_EXAMPLES.md)** - Code examples and patterns
-- **[LOYALTY_QUICK_REFERENCE.md](docs/LOYALTY_QUICK_REFERENCE.md)** - Quick lookup reference
-- **[DOCUMENTATION_INDEX.md](docs/DOCUMENTATION_INDEX.md)** - Complete documentation index
+- **[START_HERE.md](https://github.com/emonarafat/BanglaLinkOrangeClient/blob/main/START_HERE.md)** - Entry point with 5-minute quick start
+- **[GETTING_STARTED.md](https://github.com/emonarafat/BanglaLinkOrangeClient/blob/main/GETTING_STARTED.md)** - Comprehensive getting started guide
+- **[DELEGATING_HANDLER_GUIDE.md](https://github.com/emonarafat/BanglaLinkOrangeClient/blob/main/DELEGATING_HANDLER_GUIDE.md)** - Automatic token injection guide
+- **[ARCHITECTURE.md](https://github.com/emonarafat/BanglaLinkOrangeClient/blob/main/ARCHITECTURE.md)** - Architecture and design patterns
+- **[API_REFERENCE.md](https://github.com/emonarafat/BanglaLinkOrangeClient/blob/main/API_REFERENCE.md)** - Complete API reference
 
 ### 📋 API Specifications
 
-- **[OPENAPI_SPECIFICATION.md](docs/OPENAPI_SPECIFICATION.md)** - OAuth 2.0 implementation details
-- **[OPENAPI_Spec_v1.1.pdf](docs/OPENAPI_Spec_v1.1.pdf)** - Official Banglalink OAuth 2.0 specification (PDF)
+- **[OPENAPI_SPECIFICATION.md](https://github.com/emonarafat/BanglaLinkOrangeClient/blob/main/docs/OPENAPI_SPECIFICATION.md)** - OAuth 2.0 implementation details
+- **[LIBRARY_SUMMARY.md](https://github.com/emonarafat/BanglaLinkOrangeClient/blob/main/LIBRARY_SUMMARY.md)** - Feature summary and capabilities
+
+### 📁 Additional Resources
+
+- **[docs/](https://github.com/emonarafat/BanglaLinkOrangeClient/tree/main/docs)** - Complete documentation folder
+- **[examples/](https://github.com/emonarafat/BanglaLinkOrangeClient/tree/main/examples)** - Code examples and patterns
+- **[tests/](https://github.com/emonarafat/BanglaLinkOrangeClient/tree/main/tests)** - Unit tests and test cases
 
 ---
 
@@ -411,4 +476,23 @@ This library is provided as-is for Banglalink integration purposes.
 ✅ **Comprehensive Documentation** - Complete with 10+ guides and examples  
 ✅ **Unit Tests** - 15+ test cases with full coverage  
 
-**Current Version:** 1.0.0 | **Status:** Production Ready
+**Current Version:** 1.0.1 | **Status:** Production Ready
+
+---
+
+## Links & Resources
+
+### 📦 Package Distribution
+- **NuGet.org:** https://www.nuget.org/packages/BanglaLinkOrangeLoyaltyClient/
+- **GitHub Repository:** https://github.com/emonarafat/BanglaLinkOrangeClient
+- **GitHub Issues:** https://github.com/emonarafat/BanglaLinkOrangeClient/issues
+
+### 📖 Documentation Repository
+All documentation is hosted on GitHub:
+- **Main Branch:** https://github.com/emonarafat/BanglaLinkOrangeClient/tree/main
+- **Raw Files:** https://raw.githubusercontent.com/emonarafat/BanglaLinkOrangeClient/main/
+
+### 🔗 Related Resources
+- [OAuth 2.0 Overview](https://www.oauth.com/oauth2-servers/access-tokens/)
+- [JWT Token Decoder](https://jwt.io/)
+- [Banglalink API Hub](https://apihub.banglalink.net/)
