@@ -1,10 +1,6 @@
 # 🎯 Banglalink Orange Loyalty API Client
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/emonarafat/BanglaLinkOrangeClient/main/BLOrange.png" alt="Banglalink Orange" width="220" height="220" style="margin: 20px 0;"/>
-</div>
-
-<div align="center">
+![Banglalink Orange](https://raw.githubusercontent.com/emonarafat/BanglaLinkOrangeClient/main/BLOrange.png)
 
 [![NuGet Badge](https://img.shields.io/nuget/v/BanglaLinkOrangeClub.Client.svg?style=flat-square&label=NuGet)](https://www.nuget.org/packages/BanglaLinkOrangeClub.Client/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
@@ -14,8 +10,6 @@
 **Seamless OAuth 2.0 Authentication + Loyalty Integration for Banglalink Orange Club**
 
 *Enterprise-grade, production-ready C# library for real-time member verification and points management*
-
-</div>
 
 ---
 
@@ -615,10 +609,6 @@ MIT License - See [LICENSE](LICENSE) file for details
 
 ---
 
-<div align="center">
-
 ### Made with ❤️ for Banglalink Orange Club Integration
 
 **[⭐ Star us on GitHub](https://github.com/emonarafat/BanglaLinkOrangeClient)** • **[📦 NuGet Package](https://www.nuget.org/packages/BanglaLinkOrangeClub.Client/)** • **[📖 Full Documentation](https://github.com/emonarafat/BanglaLinkOrangeClient/tree/main/docs)**
-
-</div>
