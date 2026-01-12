@@ -1,0 +1,58 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.0.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F1E4E3A0-4B4F-4A9F-8C5F-3E8A2B1D4E5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{B2D5E4F1-8C9A-4D3E-9F5A-2E7B1C4D5E6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7C60}") = "Othoba.BanglaLinkOrange", "src\Othoba.BanglaLinkOrange\Othoba.BanglaLinkOrange.csproj", "{E1A2B3C4-D5E6-4F7A-8B9C-0D1E2F3A4B5C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7C60}") = "Othoba.BanglaLinkOrange.Client", "src\Othoba.BanglaLinkOrange.Client\Othoba.BanglaLinkOrange.Client.csproj", "{H4D5E6F7-A8B9-4C5D-0E1F-2G3A4B5C6D7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7C60}") = "Othoba.BanglaLinkOrangeClient.Tests", "tests\Othoba.BanglaLinkOrangeClient.Tests\Othoba.BanglaLinkOrangeClient.Tests.csproj", "{I5E6F7A8-B9C0-4D5E-1F2G-3H4A5B6C7D8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7C60}") = "ConsoleExample-Net6", "examples\ConsoleExample-Net6\ConsoleExample-Net6.csproj", "{F2B3C4D5-E6F7-4A8B-9C0D-1E2F3A4B5C6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7C60}") = "ConsoleExample-Net8", "examples\ConsoleExample-Net8\ConsoleExample-Net8.csproj", "{J6F7A8B9-C0D1-4E5F-2G3H-4I5A6B7C8D9E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7C60}") = "WebApiExample-Net6", "examples\WebApiExample-Net6\WebApiExample-Net6.csproj", "{G3C4D5E6-F7A8-4B9C-0D1E-2F3A4B5C6D7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7C60}") = "WebApiExample-Net8", "examples\WebApiExample-Net8\WebApiExample-Net8.csproj", "{K7A8B9C0-D1E2-4F5G-3H4I-5J6A7B8C9D0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1A2B3C4-D5E6-4F7A-8B9C-0D1E2F3A4B5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A2B3C4-D5E6-4F7A-8B9C-0D1E2F3A4B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A2B3C4-D5E6-4F7A-8B9C-0D1E2F3A4B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A2B3C4-D5E6-4F7A-8B9C-0D1E2F3A4B5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{H4D5E6F7-A8B9-4C5D-0E1F-2G3A4B5C6D7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{H4D5E6F7-A8B9-4C5D-0E1F-2G3A4B5C6D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{H4D5E6F7-A8B9-4C5D-0E1F-2G3A4B5C6D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{H4D5E6F7-A8B9-4C5D-0E1F-2G3A4B5C6D7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{I5E6F7A8-B9C0-4D5E-1F2G-3H4A5B6C7D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{I5E6F7A8-B9C0-4D5E-1F2G-3H4A5B6C7D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{I5E6F7A8-B9C0-4D5E-1F2G-3H4A5B6C7D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{I5E6F7A8-B9C0-4D5E-1F2G-3H4A5B6C7D8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2B3C4D5-E6F7-4A8B-9C0D-1E2F3A4B5C6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2B3C4D5-E6F7-4A8B-9C0D-1E2F3A4B5C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2B3C4D5-E6F7-4A8B-9C0D-1E2F3A4B5C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2B3C4D5-E6F7-4A8B-9C0D-1E2F3A4B5C6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{J6F7A8B9-C0D1-4E5F-2G3H-4I5A6B7C8D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{J6F7A8B9-C0D1-4E5F-2G3H-4I5A6B7C8D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{J6F7A8B9-C0D1-4E5F-2G3H-4I5A6B7C8D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{J6F7A8B9-C0D1-4E5F-2G3H-4I5A6B7C8D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{G3C4D5E6-F7A8-4B9C-0D1E-2F3A4B5C6D7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{G3C4D5E6-F7A8-4B9C-0D1E-2F3A4B5C6D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{G3C4D5E6-F7A8-4B9C-0D1E-2F3A4B5C6D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{G3C4D5E6-F7A8-4B9C-0D1E-2F3A4B5C6D7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{K7A8B9C0-D1E2-4F5G-3H4I-5J6A7B8C9D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{K7A8B9C0-D1E2-4F5G-3H4I-5J6A7B8C9D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{K7A8B9C0-D1E2-4F5G-3H4I-5J6A7B8C9D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{K7A8B9C0-D1E2-4F5G-3H4I-5J6A7B8C9D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
